@@ -276,7 +276,7 @@ Unban.Text = "Unban"
 Unban.TextColor3 = Color3.fromRGB(170, 0, 0)
 Unban.TextSize = 22.000
 Unban.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/JayXScripts/Unban/main/tokyo?token=GHSAT0AAAAAABUDSQPI76YHU43K73JQKA7SYTOMPAQ'))()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/JayXScripts/load/main/unban'))()
 end)
 
 GunGodMode.Name = "Gun GodMode"

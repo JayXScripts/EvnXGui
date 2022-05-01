@@ -1,0 +1,612 @@
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local Open = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local TextLabel = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local UIGradient_2 = Instance.new("UIGradient")
+local TextLabel_2 = Instance.new("TextLabel")
+local GodModes = Instance.new("TextButton")
+local DHScripts = Instance.new("TextButton")
+local Movements = Instance.new("TextButton")
+local Extra = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local UIGradient_3 = Instance.new("UIGradient")
+local MovementTAB = Instance.new("Frame")
+local Fly = Instance.new("TextButton")
+local WalkSpeed = Instance.new("TextButton")
+local Lablemt = Instance.new("TextLabel")
+local ClickTp = Instance.new("TextButton")
+local KeyBoard = Instance.new("TextButton")
+local GodModeTAB = Instance.new("Frame")
+local GodModeTAB_2 = Instance.new("TextLabel")
+local GodBullet = Instance.new("TextButton")
+local GodBlock = Instance.new("TextButton")
+local Unban = Instance.new("TextButton")
+local GunGodMode = Instance.new("TextButton")
+local GodV3 = Instance.new("TextButton")
+local ExtraTAB = Instance.new("Frame")
+local ExtraLB = Instance.new("TextLabel")
+local FpsBoost = Instance.new("TextButton")
+local Xray = Instance.new("TextButton")
+local Crash = Instance.new("TextButton")
+local KnifeLp = Instance.new("TextButton")
+local NoFog = Instance.new("TextButton")
+local Esp = Instance.new("TextButton")
+local AdminCmds = Instance.new("TextButton")
+local EnjoyLABEL = Instance.new("TextLabel")
+local DHTAB = Instance.new("Frame")
+local labelat = Instance.new("TextLabel")
+local SwagMode = Instance.new("TextButton")
+local HoodShark = Instance.new("TextButton")
+local RayzorXP = Instance.new("TextButton")
+local RayCodex = Instance.new("TextButton")
+local Arctic = Instance.new("TextButton")
+local KaraUltraX = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Open.Name = "Open"
+Open.Parent = ScreenGui
+Open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Open.BorderSizePixel = 0
+Open.Position = UDim2.new(0.664454997, 0, 0.906417072, 0)
+Open.Size = UDim2.new(0, 100, 0, 35)
+Open.Font = Enum.Font.Sarpanch
+Open.Text = ""
+Open.TextColor3 = Color3.fromRGB(0, 0, 0)
+Open.TextScaled = true
+Open.TextSize = 14.000
+Open.TextWrapped = true
+Open.Active = true
+
+UICorner.Parent = Open
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(0.20, Color3.fromRGB(170, 0, 0)), ColorSequenceKeypoint.new(0.49, Color3.fromRGB(49, 0, 0)), ColorSequenceKeypoint.new(0.78, Color3.fromRGB(170, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient.Parent = Open
+
+TextLabel.Parent = Open
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(1, 0, 1, 0)
+TextLabel.Font = Enum.Font.SciFi
+TextLabel.Text = "Open"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 24.000
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(0.235823333, 0, 0.142832503, 0)
+Frame.Size = UDim2.new(0, 335, 0, 267)
+Frame.Visible = false
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(0.20, Color3.fromRGB(170, 0, 0)), ColorSequenceKeypoint.new(0.49, Color3.fromRGB(49, 0, 0)), ColorSequenceKeypoint.new(0.78, Color3.fromRGB(170, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_2.Parent = Frame
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 301, 0, 34)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Credits: EvnX"
+TextLabel_2.TextColor3 = Color3.fromRGB(170, 0, 0)
+TextLabel_2.TextSize = 28.000
+
+GodModes.Name = "GodModes"
+GodModes.Parent = Frame
+GodModes.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GodModes.Position = UDim2.new(0.4985075, 0, 0.127340823, 0)
+GodModes.Size = UDim2.new(0, 85, 0, 28)
+GodModes.Font = Enum.Font.SourceSans
+GodModes.Text = "GodMode"
+GodModes.TextColor3 = Color3.fromRGB(255, 0, 4)
+GodModes.TextSize = 22.000
+
+DHScripts.Name = "DHScripts"
+DHScripts.Parent = Frame
+DHScripts.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DHScripts.Position = UDim2.new(0.2447761, 0, 0.127340823, 0)
+DHScripts.Size = UDim2.new(0, 85, 0, 28)
+DHScripts.Font = Enum.Font.SourceSans
+DHScripts.Text = "DH Scripts"
+DHScripts.TextColor3 = Color3.fromRGB(255, 0, 4)
+DHScripts.TextSize = 22.000
+
+Movements.Name = "Movements"
+Movements.Parent = Frame
+Movements.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Movements.Position = UDim2.new(-1.03376806e-07, 0, 0.127340823, 0)
+Movements.Size = UDim2.new(0, 81, 0, 28)
+Movements.Font = Enum.Font.SourceSans
+Movements.Text = "Movement"
+Movements.TextColor3 = Color3.fromRGB(255, 0, 4)
+Movements.TextSize = 22.000
+
+Extra.Name = "Extra"
+Extra.Parent = Frame
+Extra.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Extra.Position = UDim2.new(0.755223751, 0, 0.127340823, 0)
+Extra.Size = UDim2.new(0, 81, 0, 28)
+Extra.Font = Enum.Font.SourceSans
+Extra.Text = "Extra"
+Extra.TextColor3 = Color3.fromRGB(255, 0, 4)
+Extra.TextSize = 22.000
+
+Close.Name = "Close"
+Close.Parent = Frame
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.901492536, 0, 0, 0)
+Close.Size = UDim2.new(0, 33, 0, 33)
+Close.Font = Enum.Font.Sarpanch
+Close.Text = ""
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+TextLabel_3.Parent = Close
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(-0.0106058121, 0, 0.00504201837, 0)
+TextLabel_3.Size = UDim2.new(1.0000006, 0, 0.971697986, 0)
+TextLabel_3.Font = Enum.Font.SciFi
+TextLabel_3.Text = "X"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 0, 4)
+TextLabel_3.TextSize = 28.000
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_3.Parent = Close
+
+MovementTAB.Name = "MovementTAB"
+MovementTAB.Parent = Frame
+MovementTAB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MovementTAB.BackgroundTransparency = 1.000
+MovementTAB.Position = UDim2.new(0, 0, 0.232209742, 0)
+MovementTAB.Size = UDim2.new(0, 335, 0, 205)
+MovementTAB.Visible = false
+
+Fly.Name = "Fly"
+Fly.Parent = MovementTAB
+Fly.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Fly.Position = UDim2.new(0, 0, 0.0536585376, 0)
+Fly.Size = UDim2.new(0, 105, 0, 40)
+Fly.Font = Enum.Font.SourceSans
+Fly.Text = "Fly"
+Fly.TextColor3 = Color3.fromRGB(170, 0, 0)
+Fly.TextSize = 22.000
+Fly.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/JayXScripts/dh/main/fly'))()
+end)
+
+
+WalkSpeed.Name = "WalkSpeed"
+WalkSpeed.Parent = MovementTAB
+WalkSpeed.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+WalkSpeed.Position = UDim2.new(0.686567187, 0, 0.0536585376, 0)
+WalkSpeed.Size = UDim2.new(0, 105, 0, 40)
+WalkSpeed.Font = Enum.Font.SourceSans
+WalkSpeed.Text = "WalkSpeed"
+WalkSpeed.TextColor3 = Color3.fromRGB(170, 0, 0)
+WalkSpeed.TextSize = 22.000
+
+Lablemt.Name = "Lable mt"
+Lablemt.Parent = MovementTAB
+Lablemt.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Lablemt.Position = UDim2.new(0.310447752, 0, 0.8097561, 0)
+Lablemt.Size = UDim2.new(0, 124, 0, 39)
+Lablemt.Font = Enum.Font.SourceSans
+Lablemt.Text = "Movement Tab"
+Lablemt.TextColor3 = Color3.fromRGB(255, 0, 0)
+Lablemt.TextSize = 22.000
+
+ClickTp.Name = "Click Tp"
+ClickTp.Parent = MovementTAB
+ClickTp.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ClickTp.Position = UDim2.new(0.686567187, 0, 0.473170727, 0)
+ClickTp.Size = UDim2.new(0, 105, 0, 40)
+ClickTp.Font = Enum.Font.SourceSans
+ClickTp.Text = "Click Tp"
+ClickTp.TextColor3 = Color3.fromRGB(170, 0, 0)
+ClickTp.TextSize = 22.000
+ClickTp.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/JayXScripts/tp/main/ClickTP'))()
+end)
+
+KeyBoard.Name = "KeyBoard"
+KeyBoard.Parent = MovementTAB
+KeyBoard.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+KeyBoard.Position = UDim2.new(1.44354999e-08, 0, 0.473170727, 0)
+KeyBoard.Size = UDim2.new(0, 105, 0, 40)
+KeyBoard.Font = Enum.Font.SourceSans
+KeyBoard.Text = "KeyBoard"
+KeyBoard.TextColor3 = Color3.fromRGB(170, 0, 0)
+KeyBoard.TextSize = 22.000
+
+GodModeTAB.Name = "GodModeTAB"
+GodModeTAB.Parent = Frame
+GodModeTAB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GodModeTAB.BackgroundTransparency = 1.000
+GodModeTAB.Position = UDim2.new(0, 0, 0.232209742, 0)
+GodModeTAB.Size = UDim2.new(0, 335, 0, 205)
+GodModeTAB.Visible = false
+
+GodModeTAB_2.Name = "GodMode TAB"
+GodModeTAB_2.Parent = GodModeTAB
+GodModeTAB_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GodModeTAB_2.Position = UDim2.new(0.313432842, 0, 0.8097561, 0)
+GodModeTAB_2.Size = UDim2.new(0, 124, 0, 39)
+GodModeTAB_2.Font = Enum.Font.SourceSans
+GodModeTAB_2.Text = "GodMode Tab"
+GodModeTAB_2.TextColor3 = Color3.fromRGB(255, 0, 4)
+GodModeTAB_2.TextSize = 22.000
+
+GodBullet.Name = "GodBullet"
+GodBullet.Parent = GodModeTAB
+GodBullet.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GodBullet.Position = UDim2.new(0.686567187, 0, 0.565853596, 0)
+GodBullet.Size = UDim2.new(0, 105, 0, 40)
+GodBullet.Font = Enum.Font.SourceSans
+GodBullet.Text = "GodBullet"
+GodBullet.TextColor3 = Color3.fromRGB(170, 0, 0)
+GodBullet.TextSize = 22.000
+
+GodBlock.Name = "GodBlock"
+GodBlock.Parent = GodModeTAB
+GodBlock.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GodBlock.Position = UDim2.new(0.686567187, 0, 0.0439024568, 0)
+GodBlock.Size = UDim2.new(0, 105, 0, 40)
+GodBlock.Font = Enum.Font.SourceSans
+GodBlock.Text = "GodBlock"
+GodBlock.TextColor3 = Color3.fromRGB(170, 0, 0)
+GodBlock.TextSize = 22.000
+
+Unban.Name = "Unban"
+Unban.Parent = GodModeTAB
+Unban.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Unban.Position = UDim2.new(0.340298533, 0, 0.317073107, 0)
+Unban.Size = UDim2.new(0, 105, 0, 40)
+Unban.Font = Enum.Font.SourceSans
+Unban.Text = "Unban"
+Unban.TextColor3 = Color3.fromRGB(170, 0, 0)
+Unban.TextSize = 22.000
+
+GunGodMode.Name = "Gun GodMode"
+GunGodMode.Parent = GodModeTAB
+GunGodMode.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GunGodMode.Position = UDim2.new(0, 0, 0.043902427, 0)
+GunGodMode.Size = UDim2.new(0, 105, 0, 40)
+GunGodMode.Font = Enum.Font.SourceSans
+GunGodMode.Text = "Gun GodMode"
+GunGodMode.TextColor3 = Color3.fromRGB(170, 0, 0)
+GunGodMode.TextSize = 20.000
+
+GodV3.Name = "GodV3"
+GodV3.Parent = GodModeTAB
+GodV3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GodV3.Position = UDim2.new(-4.65661287e-10, 0, 0.565853715, 0)
+GodV3.Size = UDim2.new(0, 105, 0, 40)
+GodV3.Font = Enum.Font.SourceSans
+GodV3.Text = "GodV3"
+GodV3.TextColor3 = Color3.fromRGB(170, 0, 0)
+GodV3.TextSize = 22.000
+
+ExtraTAB.Name = "ExtraTAB"
+ExtraTAB.Parent = Frame
+ExtraTAB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ExtraTAB.BackgroundTransparency = 1.000
+ExtraTAB.Position = UDim2.new(0, 0, 0.232209742, 0)
+ExtraTAB.Size = UDim2.new(0, 335, 0, 205)
+ExtraTAB.Visible = false
+
+ExtraLB.Name = "Extra LB"
+ExtraLB.Parent = ExtraTAB
+ExtraLB.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ExtraLB.Position = UDim2.new(0.313432842, 0, 0.8097561, 0)
+ExtraLB.Size = UDim2.new(0, 124, 0, 39)
+ExtraLB.Font = Enum.Font.SourceSans
+ExtraLB.Text = "Extra Tab"
+ExtraLB.TextColor3 = Color3.fromRGB(255, 0, 4)
+ExtraLB.TextSize = 22.000
+
+FpsBoost.Name = "Fps Boost"
+FpsBoost.Parent = ExtraTAB
+FpsBoost.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FpsBoost.Position = UDim2.new(0, 0, 0.317073166, 0)
+FpsBoost.Size = UDim2.new(0, 105, 0, 40)
+FpsBoost.Font = Enum.Font.SourceSans
+FpsBoost.Text = "Fps Boost"
+FpsBoost.TextColor3 = Color3.fromRGB(170, 0, 0)
+FpsBoost.TextSize = 22.000
+
+Xray.Name = "Xray"
+Xray.Parent = ExtraTAB
+Xray.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Xray.Position = UDim2.new(0, 0, 0.0829268098, 0)
+Xray.Selectable = false
+Xray.Size = UDim2.new(0, 105, 0, 40)
+Xray.Font = Enum.Font.SourceSans
+Xray.Text = "Xray"
+Xray.TextColor3 = Color3.fromRGB(170, 0, 0)
+Xray.TextSize = 22.000
+
+Crash.Name = "Crash"
+Crash.Parent = ExtraTAB
+Crash.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Crash.Position = UDim2.new(0.343283653, 0, 0.570731699, 0)
+Crash.Size = UDim2.new(0, 105, 0, 40)
+Crash.Font = Enum.Font.SourceSans
+Crash.Text = "Crash"
+Crash.TextColor3 = Color3.fromRGB(170, 0, 0)
+Crash.TextSize = 22.000
+Crash.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/LPrandom/lua-projects/master/dahoodcrasher.lua"))()
+end)
+
+KnifeLp.Name = "Knife & Lp"
+KnifeLp.Parent = ExtraTAB
+KnifeLp.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+KnifeLp.Position = UDim2.new(0.343283653, 0, 0.317073166, 0)
+KnifeLp.Size = UDim2.new(0, 105, 0, 40)
+KnifeLp.Font = Enum.Font.SourceSans
+KnifeLp.Text = "Knife & Lp"
+KnifeLp.TextColor3 = Color3.fromRGB(170, 0, 0)
+KnifeLp.TextSize = 22.000
+
+NoFog.Name = "No Fog"
+NoFog.Parent = ExtraTAB
+NoFog.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+NoFog.Position = UDim2.new(0.686567247, 0, 0.0829268396, 0)
+NoFog.Size = UDim2.new(0, 105, 0, 40)
+NoFog.Font = Enum.Font.SourceSans
+NoFog.Text = "No Fog"
+NoFog.TextColor3 = Color3.fromRGB(170, 0, 0)
+NoFog.TextSize = 22.000
+
+Esp.Name = "Esp"
+Esp.Parent = ExtraTAB
+Esp.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Esp.Position = UDim2.new(0.707462728, 0, 0.317073166, 0)
+Esp.Size = UDim2.new(0, 98, 0, 40)
+Esp.Font = Enum.Font.SourceSans
+Esp.Text = "Esp"
+Esp.TextColor3 = Color3.fromRGB(170, 0, 0)
+Esp.TextSize = 22.000
+
+AdminCmds.Name = "Admin Cmds"
+AdminCmds.Parent = ExtraTAB
+AdminCmds.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AdminCmds.Position = UDim2.new(0.352238894, 0, 0.0829268098, 0)
+AdminCmds.Size = UDim2.new(0, 98, 0, 40)
+AdminCmds.Font = Enum.Font.SourceSans
+AdminCmds.Text = "Admin Cmds"
+AdminCmds.TextColor3 = Color3.fromRGB(170, 0, 0)
+AdminCmds.TextSize = 22.000
+
+EnjoyLABEL.Name = "EnjoyLABEL"
+EnjoyLABEL.Parent = Frame
+EnjoyLABEL.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EnjoyLABEL.BackgroundTransparency = 1.000
+EnjoyLABEL.Position = UDim2.new(0.200000003, 0, 0.479400754, 0)
+EnjoyLABEL.Size = UDim2.new(0, 200, 0, 50)
+EnjoyLABEL.Font = Enum.Font.SourceSans
+EnjoyLABEL.Text = "Enjoy Cutie!"
+EnjoyLABEL.TextColor3 = Color3.fromRGB(255, 0, 0)
+EnjoyLABEL.TextSize = 49.000
+
+DHTAB.Name = "DHTAB"
+DHTAB.Parent = Frame
+DHTAB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DHTAB.BackgroundTransparency = 1.000
+DHTAB.Position = UDim2.new(0, 0, 0.232209742, 0)
+DHTAB.Size = UDim2.new(0, 335, 0, 205)
+DHTAB.Visible = false
+
+labelat.Name = "label at"
+labelat.Parent = DHTAB
+labelat.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+labelat.Position = UDim2.new(0.313432813, 0, 0.8097561, 0)
+labelat.Size = UDim2.new(0, 124, 0, 39)
+labelat.Font = Enum.Font.SourceSans
+labelat.Text = "DH Tab"
+labelat.TextColor3 = Color3.fromRGB(255, 0, 0)
+labelat.TextSize = 22.000
+
+SwagMode.Name = "SwagMode"
+SwagMode.Parent = DHTAB
+SwagMode.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SwagMode.Position = UDim2.new(-4.51691449e-08, 0, 0.053658545, 0)
+SwagMode.Size = UDim2.new(0, 105, 0, 40)
+SwagMode.Font = Enum.Font.SourceSans
+SwagMode.Text = "SwagMode"
+SwagMode.TextColor3 = Color3.fromRGB(170, 0, 0)
+SwagMode.TextSize = 22.000
+SwagMode.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/BETA_Swagmode'))()
+end)
+
+HoodShark.Name = "HoodShark"
+HoodShark.Parent = DHTAB
+HoodShark.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+HoodShark.Position = UDim2.new(0.686567187, 0, 0.053658545, 0)
+HoodShark.Size = UDim2.new(0, 105, 0, 40)
+HoodShark.Font = Enum.Font.SourceSans
+HoodShark.Text = "HoodShark"
+HoodShark.TextColor3 = Color3.fromRGB(170, 0, 0)
+HoodShark.TextSize = 22.000
+HoodShark.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/JayXScripts/Sphinx/main/HoodShark'))()
+end)
+
+RayzorXP.Name = "RayzorXP"
+RayzorXP.Parent = DHTAB
+RayzorXP.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+RayzorXP.Position = UDim2.new(0.686567187, 0, 0.570731759, 0)
+RayzorXP.Size = UDim2.new(0, 105, 0, 40)
+RayzorXP.Font = Enum.Font.SourceSans
+RayzorXP.Text = "RayzorXP"
+RayzorXP.TextColor3 = Color3.fromRGB(170, 0, 0)
+RayzorXP.TextSize = 22.000
+RayzorXP.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/JayXScripts/Tokyo/main/RayzorXP'))()
+end)
+
+RayCodex.Name = "RayCodex"
+RayCodex.Parent = DHTAB
+RayCodex.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+RayCodex.Position = UDim2.new(0.686567187, 0, 0.317073196, 0)
+RayCodex.Size = UDim2.new(0, 105, 0, 40)
+RayCodex.Font = Enum.Font.SourceSans
+RayCodex.Text = "RayCodex"
+RayCodex.TextColor3 = Color3.fromRGB(170, 0, 0)
+RayCodex.TextSize = 22.000
+RayCodex.MouseButton1Down:Connect(function()
+	loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
+end)
+
+Arctic.Name = "Arctic"
+Arctic.Parent = DHTAB
+Arctic.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Arctic.Position = UDim2.new(0, 0, 0.317073166, 0)
+Arctic.Size = UDim2.new(0, 105, 0, 40)
+Arctic.Font = Enum.Font.SourceSans
+Arctic.Text = "Arctic"
+Arctic.TextColor3 = Color3.fromRGB(170, 0, 0)
+Arctic.TextSize = 22.000
+Arctic.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGetAsync("https://polar7.wtf/Arctic/Arctic.txt"))()
+end)
+
+KaraUltraX.Name = "KaraUltraX"
+KaraUltraX.Parent = DHTAB
+KaraUltraX.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+KaraUltraX.Position = UDim2.new(0, 0, 0.570731699, 0)
+KaraUltraX.Size = UDim2.new(0, 105, 0, 40)
+KaraUltraX.Font = Enum.Font.SourceSans
+KaraUltraX.Text = "KaraUltraX"
+KaraUltraX.TextColor3 = Color3.fromRGB(170, 0, 0)
+KaraUltraX.TextSize = 22.000
+KaraUltraX.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/JayXScripts/EvnX/main/KaraUltraX'))()
+end)
+
+
+-- Scripts:
+
+local function DTHPR_fake_script() -- Open.LocalScript 
+	local script = Instance.new('LocalScript', Open)
+
+	local frame = script.Parent.Parent.Frame
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frame.Visible = true
+	end)
+end
+coroutine.wrap(DTHPR_fake_script)()
+local function XVMYZRJ_fake_script() -- GodModes.LocalScript 
+	local script = Instance.new('LocalScript', GodModes)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.MovementTAB.Visible = false
+		script.Parent.Parent.DHTAB.Visible = false
+		script.Parent.Parent.GodModeTAB.Visible = true
+		script.Parent.Parent.ExtraTAB.Visible = false
+		script.Parent.Parent.EnjoyLABEL.Visible = false
+	end)
+end
+coroutine.wrap(XVMYZRJ_fake_script)()
+local function OFBZU_fake_script() -- DHScripts.LocalScript 
+	local script = Instance.new('LocalScript', DHScripts)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.MovementTAB.Visible = false
+		script.Parent.Parent.DHTAB.Visible = true
+		script.Parent.Parent.GodModeTAB.Visible = false
+		script.Parent.Parent.ExtraTAB.Visible = false
+		script.Parent.Parent.EnjoyLABEL.Visible = false
+	end)
+end
+coroutine.wrap(OFBZU_fake_script)()
+local function TLGF_fake_script() -- Movements.LocalScript 
+	local script = Instance.new('LocalScript', Movements)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.MovementTAB.Visible = true
+		script.Parent.Parent.DHTAB.Visible = false
+		script.Parent.Parent.GodModeTAB.Visible = false
+		script.Parent.Parent.ExtraTAB.Visible = false
+		script.Parent.Parent.EnjoyLABEL.Visible = false
+	end)
+end
+coroutine.wrap(TLGF_fake_script)()
+local function YJDJ_fake_script() -- Extra.LocalScript 
+	local script = Instance.new('LocalScript', Extra)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.MovementTAB.Visible = false
+		script.Parent.Parent.DHTAB.Visible = false
+		script.Parent.Parent.GodModeTAB.Visible = false
+		script.Parent.Parent.ExtraTAB.Visible = true
+		script.Parent.Parent.EnjoyLABEL.Visible = false
+	end)
+end
+coroutine.wrap(YJDJ_fake_script)()
+local function UUPHRK_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	local frame = script.Parent.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frame.Visible = false
+	end)
+end
+coroutine.wrap(UUPHRK_fake_script)()
+local function WBMZFNE_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = gui:TweenPosition(UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y), 'Out', 'Linear', 0, true); -- drag speed
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(WBMZFNE_fake_script)()
